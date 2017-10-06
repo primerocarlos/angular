@@ -1,9 +1,6 @@
 <h1>{{title}}</h1>
-<!-- <p>Heroes:</p> -->
-<!-- <ul>
-  <li *ngFor="let hero of heroes">
-    {{ hero.name }}
-  </li>
-</ul> -->
-<a routerLink="/heroes">Heroes</a>
+<nav>
+  <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+  <a routerLink="/heroes" routerLinkActive="active">Heroes</a>
+</nav>
 <router-outlet></router-outlet>
